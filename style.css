@@ -22,3 +22,31 @@ p{
     font-family: georgia;
     font-weight: 500;
 }
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(239, 200, 206); /* Màu nền của thanh điều khiển audio */
+}
+  
+audio::-webkit-media-controls-play-button {
+    color: rgb(239, 200, 206); /* Màu của nút play */
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: rgb(239, 200, 206); /* Màu của số giây hiện tại */
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: rgb(239, 200, 206); /* Màu của số giây còn lại */
+}
+
+audio::-webkit-media-controls-mute-button {
+    color: rgb(239, 200, 206); /* Màu của nút tắt tiếng */
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: rgb(239, 200, 206); /* Màu của thanh trượt âm lượng */
+}
+
+audio {
+    background-color: rgb(239, 200, 206); /* Màu nền */
+  }
