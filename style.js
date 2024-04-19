@@ -1,6 +1,6 @@
 const span = document.querySelector("span")
-span.innerHTML = '<audio controls autoplay="true"><source  src="./music.mp3" loop></audio>'
-const title = document.querySelector("h1");
+span.innerHTML = '<audio controls loop><source  src="./musicDai.mp3"></audio>'
+const title = document.querySelector("p");
 const letter = [
     "BABY ",
     "LOVE ",

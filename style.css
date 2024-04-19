@@ -3,18 +3,22 @@ body{
     height: 98%;
     width: 99%;
     position: absolute;
-    background-image: url(./heart-493.gif);
-    background-position-x: 400px;
+    background-image: url(./heart-493-bg.gif);
+    background-position-x: -10%;
     background-position-y: -2%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-color: rgb(239, 200, 206);
 }
 
-h1{
+p{
     color: rgb(219, 86, 108);
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: relative;
+    text-shadow: 0.1em 0.1em 0.07em #fff;
+    font-family: georgia;
+    font-weight: 500;
 }
